@@ -19,6 +19,7 @@ export default function Navbar() {
       {/* 2. Navigasi Tengah */}
       <div className="pointer-events-auto hidden md:flex">
         <PillNav
+          // @ts-expect-error PillNav linkComponent type mismatch with Next Link
           linkComponent={Link}
           items={[
             { label: "Berita", href: "/SliderBerita" },
