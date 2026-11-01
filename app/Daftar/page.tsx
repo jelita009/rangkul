@@ -150,7 +150,7 @@ export default function DaftarPage() {
 
           <p className="text-center text-sm text-[#5A7E9C] mt-6">
             Sudah punya akun?{" "}
-            <Link href="/Login" className="font-semibold text-[#3B6FA3]">
+            <Link href="/login" className="font-semibold text-[#3B6FA3]">
               Masuk
             </Link>
           </p>

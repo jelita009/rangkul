@@ -118,7 +118,7 @@ export default function LoginPage() {
 
           <p className="text-center text-sm text-[#5A7E9C] mt-6">
             Belum punya akun?{" "}
-            <Link href="/Daftar" className="font-semibold text-[#3B6FA3]">
+            <Link href="/daftar" className="font-semibold text-[#3B6FA3]">
               Daftar
             </Link>
           </p>

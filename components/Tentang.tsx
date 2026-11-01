@@ -11,7 +11,7 @@ export default function Tentang() {
   ];
 
   return (
-    <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 flex flex-col md:flex-row items-center gap-16 overflow-hidden">
+    <section id="Tentang" className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 flex flex-col md:flex-row items-center gap-16 overflow-hidden">
       <motion.div
         className="flex-1 flex justify-center"
         animate={{ y: [0, -15, 0] }}

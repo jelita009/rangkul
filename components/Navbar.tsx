@@ -22,9 +22,9 @@ export default function Navbar() {
           // @ts-expect-error PillNav linkComponent type mismatch with Next Link
           linkComponent={Link}
           items={[
-            { label: "Berita", href: "/SliderBerita" },
-            { label: "Tentang", href: "/Tentang" },
-            { label: "Peta", href: "/pasien/peta" },
+            { label: "Berita", href: "/#SliderBerita" },
+            { label: "Tentang", href: "/#Tentang" },
+            { label: "Peta", href: "/#Peta" },
             { label: "Daftar Skrinning", href: isLoggedIn ? "/pendaftaran" : "/Daftar" },
           ]}
           activeHref="/"

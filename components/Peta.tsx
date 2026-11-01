@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function Peta() {
   return (
-    <section className="relative w-full min-h-[640px] flex items-center overflow-hidden mt-10 rounded-t-[3rem] bg-map-gradient">
+    <section id="Peta" className="relative w-full min-h-[640px] flex items-center overflow-hidden mt-10 rounded-t-[3rem] bg-map-gradient">
       {/* Background Peta */}
       <div className="absolute inset-0 z-0 opacity-50">
         <Image
