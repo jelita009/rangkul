@@ -27,7 +27,7 @@ export default function Peta() {
             Temukan fasilitas skrining HIV dan kenali lokasi layanan yang ingin kamu kunjungi. Semua dimulai dari satu peta.
           </p>
           <Link
-            href="/pasien/peta"
+            href="/peta"
             className="inline-flex items-center gap-3 bg-[#113B6B] text-white font-medium text-lg px-8 py-3 rounded-full hover:scale-105 transition-transform"
           >
             Lihat Peta

@@ -205,7 +205,7 @@ export default function PetaPage() {
                   <div className="grid grid-cols-2 gap-2 rounded-2xl overflow-hidden h-36 relative">
                     <div className="relative w-full h-full bg-slate-200">
                       <Image
-                        src="/rsu-gedung.jpg"
+                        src="/image/rs-depan.jpeg"
                         alt="RSU Cut Meutia Gedung"
                         fill
                         className="object-cover"
@@ -213,7 +213,7 @@ export default function PetaPage() {
                     </div>
                     <div className="relative w-full h-full bg-slate-200">
                       <Image
-                        src="/rsu-poli.jpg"
+                        src="/image/vct2.jpeg"
                         alt="Poli VCT"
                         fill
                         className="object-cover"
@@ -284,7 +284,7 @@ export default function PetaPage() {
                   className="relative w-full h-full min-h-[300px]"
                 >
                   <Image
-                    src="/denah-rsu.png"
+                    src="/image/denah-rs.png"
                     alt="Denah RSU Cut Meutia"
                     fill
                     className="object-contain"
